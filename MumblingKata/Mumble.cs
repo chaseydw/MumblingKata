@@ -6,8 +6,10 @@ namespace MumblingKata
 {
     public class Mumble
     {
+
         public string mumble_letters(string letters) 
         {
+            //test comment
             char[] arrayOfLetters = letters.ToCharArray();
             string returnLetters = string.Empty;
             int position = 1;
